@@ -1,0 +1,184 @@
+html {
+	height: 100%;
+	}
+
+body	{
+	width : 100%;
+	height: 100%;
+	margin : 0px;
+	text-align:center; /*IE�Ή�*/
+	background-position: center;
+	background-color: #ffffff;
+	background-image: url("img/css_bg.gif"); /* �S�̂̔w�i�摜 */
+ 	background-repeat: repeat-y;            /* �w�i���J���Ԃ��Ȃ� */
+  background-attachment:fixed;             /* �w�i�摜���Œ肷�� */
+  color: #333;
+	font-size : 14px;
+	font-family: "Roboto Slab","Hiragino Kaku Gothic ProN",Meiryo,sans-serif;
+}
+
+#container	{
+		background-color: #ffffff;
+		width : 800px;
+		margin : 0px auto;
+}
+
+.title {
+	width : 800px ;
+	height : 60px ;
+	background-color : #ffffff;
+	border-bottom: solid 4px #bb1010;
+	text-align : left;
+
+	color : #555555;
+	font-family: Meiryo;
+}
+
+.title h1 {
+		width : 800px;
+		padding-left : 90px;
+		padding-top : 16px;
+	}
+
+#logo {
+	width : 800px;
+	height : 105px ;
+/*	padding-left : 10px; ���摜�̗]��(hspace�ŏ���)*/
+	text-align : left;
+	margin-top : -65px;
+/*	border : 1px solid #cccccc;*/
+}
+nav {
+	float: left;
+	width : 150px;
+	height : 480px;
+	margin : 0px;
+	margin-right: 10px;
+}
+nav ul {
+	list-style:none;
+	margin-left:0px;
+	padding-left:0px;
+}
+nav li {
+	background-color : #ffffff;
+	height : 30px;
+	line-height : 30px;
+	margin : 2px 0px 0px 0px;
+	text-align : left;
+	border: solid 1px #cccccc;
+	border-left: none;
+
+	text-indent: 2em;/*�s������*/
+	color : #555555;
+	font-size : 12;
+	font-family: Meiryo;
+}
+nav .share li {
+	border: none;
+}
+nav li A {
+			display: block; /*�u���b�N�͈͂ɕϊ�*/
+  			width: 100%;
+  			height: 100%;
+			color: #555555;    /* �����N */
+  			font-family: Meiryo;
+			font-size : 12;
+			text-decoration: none;    /* ���������� */
+			text-align : left;
+}
+nav li A:visited {
+	color: #555555;               /* ���Ɍ��������N */
+	text-decoration: none}     /* ���������� */
+nav li A:active {
+	color: #555555;
+	text-decoration: none } /* �N���b�N���̃����N */
+nav li A:hover {                   /* �J�[�\�������ɂ��鎞�̃����N */
+	color: #ffffff;
+	text-decoration: none;     /* ���������� */
+	background-color: #FFB600;
+}
+/*----------------------------------------------------------------*/
+#topimage	{
+		float: right;
+		width : 640px;
+		height : 480px;
+		text-align : center;
+		/*border : 1px solid #cccccc;*/
+		 position: relative; overflow: hidden;
+	 }
+
+#topimage img {
+    top: 0;
+    left: 10px;
+    position: absolute;
+	}
+
+#black {
+	clear : both ;
+	width : 800px;
+	height: 10px;
+	background-color : #eeeeee;
+}
+
+
+#new	{
+		float: left;
+		width : 500px;
+		padding : 5px 20px;
+		text-align : left;
+		font-size : 11;
+		font-family: Meiryo;
+		/*border : 1px solid #cccccc;*/
+}
+
+#side	{
+		float: right;
+		width : 260px;
+		height: 600px;
+		text-align : center;
+		margin : 0px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		background-color : #ffffff;
+		/*border : 1px solid #cccccc;*/
+}
+
+#banner	{
+		clear: both;
+		width : 800px;
+		padding-top :0px ;
+		padding-bottom :20px ;
+		text-align : center;
+		font-family: Meiryo;
+		/*border : 1px solid #cccccc;*/
+}
+
+.reset	{
+		clear: both;
+		}
+
+
+.text	{
+		padding-left : 20px;
+		text-align : left;
+		font-size : 11;
+		font-family: Meiryo;
+}
+
+
+#footer {
+	clear : both ;
+	width : 800px;
+	padding: 10px 0px;
+	background-color : #ffffff;
+	border-top: solid 2px #bb1010;
+	color : #333333;
+	font-size : 10;
+	font-family: Meiryo;
+	}
+a img{
+	border: none;
+	}
+
+	

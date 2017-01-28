@@ -1,0 +1,310 @@
+html,body,container,main {
+	height: 100%;
+	}
+
+body	{
+	width : 100%;
+	margin : 0px;
+	text-align:center; /*IE�Ή�*/
+	background-position: center;
+	background-color: #ffffff;
+	background-image: url("img/css_bg.gif"); /* �S�̂̔w�i�摜 */
+ 	background-repeat: repeat-y;            /* �w�i���J���Ԃ��Ȃ� */
+  	background-attachment:fixed;             /* �w�i�摜���Œ肷�� */
+ 	font-size : small;
+
+}
+
+
+a img{
+	border: none;
+	}
+
+#container	{
+		position: relative;
+		height: auto !important; /*IE6�΍�*/
+		height: 100%; /*IE6�΍�*/
+		min-height: 100%;
+
+		background-color: #ffffff;
+		width : 800px;
+		margin : 0px auto;
+
+}
+
+#header {
+ 	width : 800px ;
+	height : 60px ;
+	background-color : #ffffff;
+	border-bottom: solid 4px #bb1010;
+	text-align : left;
+
+	color : #555555;
+	font-family: Meiryo;
+
+}
+
+#header h1 {
+		width : 800px;
+		padding-left : 90px;
+		padding-top : 16px;
+	}
+
+#black {
+	float: left;
+	width: 800px;
+	height: 40px;
+	background-color : #ffffff;
+}
+
+
+
+#logo {
+	float: left;
+	width : 80px;
+	height : 105px ;
+	text-align : left;
+	position: absolute;
+	top : 0px;
+	/*border : 1px solid #000000;*/
+
+}
+
+/*---------------------------------------------------------------------*/
+
+#menu2 {
+	clear : both;
+	float: right;
+	/*position:relative;*/
+	width : 720px;
+   	overflow:hidden;
+	background-color : #dddddd;
+	height : 40px;
+	margin-top : 0px;
+	padding : 0px;
+	text-align:right;
+	font-size: x-small;
+	/*border : 1px solid #cccccc;*/
+}
+
+#menu2 ul {
+	display:inline; /**/
+	list-style:none;
+	margin-left:0px; /*�����̎����]�����Ȃ����V��*/
+	padding-left:0px; /*firefox�ɂē���*/
+
+	}
+
+	#menu2 li {
+		float: left;
+		background-color : #ffffff;
+		width : 89px;
+		height : 40px;
+		line-height : 40px;
+		margin : 0px;
+		padding : 0px;
+		border: solid 1px #cccccc;
+		border-right: none;
+	}
+
+
+		#menu2 li A {
+					display: block; /*�u���b�N�͈͂ɕϊ�*/
+		  			width: 100%;
+		  			height: 100%;
+					color: #555555;    /* �����N */
+		  			font-family: Meiryo;
+					font-size : 12;
+					text-decoration: none;    /* ���������� */
+					text-align : center;
+		}
+
+		#menu2 li A:visited {
+					color: #555555;               /* ���Ɍ��������N */
+				    	text-decoration: none}     /* ���������� */
+
+		#menu2 li A:active {
+					color: #555555;
+					text-decoration: none;
+					background-color: #FFB600; } /* �N���b�N���̃����N */
+
+		#menu2 li A:hover {                   /* �J�[�\�������ɂ��鎞�̃����N */
+		  			color: #ffffff;
+		  			text-decoration: none;     /* ���������� */
+					background-color: #FFB600;
+		}
+
+/*---------------------------------------------------------------------*/
+
+#main	{
+		clear : both ; width : 760px;
+		background-color: #ffffff;
+		padding : 19px;
+		text-align : left;
+		font-size : 11;
+		font-family: Meiryo;
+		color: #333333;
+		/*border : 1px solid #cccccc;*/
+
+		padding-bottom: 24px;
+}
+
+
+a.banner:hover img{
+	border: no;
+	opacity:0.6;
+	filter: alpha(opacity=60);
+	}
+
+
+
+	A.botan:link  {
+				color: #333333;    /* �����N */
+	  			font-family: Meiryo;
+	  			padding : 4px 10px;
+				text-decoration: none;    /* ���������� */
+				text-align : center;
+				border: 1px solid #cccccc;
+	}
+
+	A.botan:visited {
+				color: #333333;               /* ���Ɍ��������N */
+			    	text-decoration: none;
+			    	}
+
+	A.botan:active {	/* �N���b�N���̃����N */
+				color: #333333;
+				text-decoration: none;
+				}
+
+	A.botan:hover {
+	  			color: #ffffff;
+	  			text-decoration: none;
+				background-color: #FFB600;
+			}
+
+
+	A.nomal:link  {
+	  			font-family: Meiryo;
+	}
+
+table.kako {
+	}
+.kako tr	{
+	height: 200px;
+	}
+.kako td	{
+	width: 200px;
+	border : 1px solid #cccccc;
+	padding: 10px;
+	text-align : center;
+	}
+img.kako    {
+			vertical-align:top;
+}
+
+
+table.mem {
+	}
+.mem tr	{
+	height: 150px;
+	}
+.mem td	{
+	width: 300px;
+	border : 1px solid #cccccc;
+	padding: 25px;
+	}
+img.mem    {
+			vertical-align:top;
+			float:left;
+			margin-right:20px;
+}
+
+.moji  {
+	font-size : 150%;
+	margin : 2px;
+	font-family: Meiryo;
+}
+.moji2  {
+	font-size : 110%;
+	margin: 0px;
+	font-family: Meiryo;
+}
+/*========リンクボタン========*/
+/*ベーススタイル*/
+.button {
+	display: block;
+	width: 300px;
+	height: 54px;
+	margin: 40px auto 0;
+	text-align: center;
+	text-decoration: none;
+	line-height: 54px;
+	outline: none;
+}
+.button::before,
+.button::after {
+	position: absolute;
+	z-index: -1;
+	display: block;
+	content: '';
+}
+.button,
+.button::before,
+.button::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+/*スタイル毎追記*/
+.button {
+	background-color: #fff;
+	border: 2px solid #53C655;
+	color: #53C655;
+	line-height: 50px;
+}
+.button:hover {
+	background-color: #53C655;
+	border-color: #53C655;
+	color: #fff;
+}
+.flyer img:hover {
+	-webkit-filter: brightness(.6);
+	-moz-filter: brightness(.6);
+	-o-filter: brightness(.6);
+	-ms-filter: brightness(.6);
+	filter: brightness(.6);
+}
+/*========チケットタイプ========*/
+.ticket-type {
+  display: inline-block;
+  width: 80px;
+  margin: 0 12px 0 24px;
+  text-align: center;
+  color: #fff;
+  background-color: #333;
+	border: 1px solid #fff;
+	border-radius: 4px;
+}
+.ticket-type span {
+  font-size: 12px;
+  letter-spacing: 1em;
+  margin-right: -1em;
+}
+
+/*---------------------------------------------------------------------*/
+#footer {
+	clear:both;
+	height: 24px;
+	width : 800px;
+
+	background-color : #ffffff;
+	border-top: solid 2px #bb1010;
+	color : #333333;
+	text-align: center;
+	padding: 10px 0px;
+	font-size : 10;
+	font-family: Meiryo;
+	}
